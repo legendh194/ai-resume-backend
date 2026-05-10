@@ -68,4 +68,4 @@ async function callOpenRouter(name: string, experience: string, skills: string, 
   if (!res.ok) throw new Error("OpenRouter failed")
   const data = await res.json()
   return data.choices[0].message.content
-                          }
+                          } 
